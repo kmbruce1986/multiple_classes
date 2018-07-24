@@ -11,6 +11,16 @@ class Bears
     @stomach = []
   end
 
+  def stomach_count
+    return @stomach.length
+  end
 
+  def eats_fish(fish)
+    @stomach << fish
+  end
+
+  def roar
+    return "I'm sick of fish!"
+  end
 
 end
