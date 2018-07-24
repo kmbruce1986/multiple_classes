@@ -8,6 +8,7 @@ class BearsTest < MiniTest::Test
 
   def setup()
     @bear = Bears.new("Yogi", "Grizzly")
+    
   end
 
   def test_get_name
