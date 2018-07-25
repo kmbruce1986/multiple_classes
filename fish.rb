@@ -2,7 +2,7 @@ class Fish
 
   attr_reader :name
 
-  attr_writer
+  # attr_writer
 
 
   def initialize(name)
