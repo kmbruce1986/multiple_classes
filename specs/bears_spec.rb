@@ -25,7 +25,7 @@ class BearsTest < MiniTest::Test
   end
 
   def test_roar
-    assert_equal("I'm sick of fish!", @bear.roar())
+    assert_equal("I'm sick of fish!", @bear.roar("I'm sick of fish!"))
   end
 
   # def test_add_fish_to_stomach(fish)

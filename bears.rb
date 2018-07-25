@@ -19,8 +19,8 @@ class Bears
     @stomach << fish
   end
 
-  def roar
-    return "I'm sick of fish!"
+  def roar(phrase)
+    return "#{phrase}"
   end
 
 end
